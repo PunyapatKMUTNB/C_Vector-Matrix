@@ -16,7 +16,7 @@ double **augment(double **mat, int m, int n, double *vec, int print_option){
     }
     return augmented_matrix;
 }
-// Transformatiom to Reduced Row Echelon
+// Transformation to Reduced Row Echelon
 double **Cin_ReducedRowEchelon(double **mat, int row, int col){
     for (int r = 0; r < row; r++){
         for (int c = 0; c < col; c++){

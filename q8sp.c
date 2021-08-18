@@ -16,7 +16,7 @@ double **augment(double **mat, int m, int n, double *vec, int print_option){
     }
     return augmented_matrix;
 }
-// Transformatiom to Reduced Row Echelon
+// Transformation to Reduced Row Echelon
 // Using Psudocode from https://en.wikipedia.org/wiki/Row_echelon_form#Pseudocode_for_reduced_row_echelon_form
 double **Psudo_ReducedRowEchelon(double **mat, int m, int n){
     int lead = 0;
